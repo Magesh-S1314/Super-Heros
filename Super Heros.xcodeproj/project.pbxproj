@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D54AF8D25EF3A500057764E /* SuperHeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54AF8C25EF3A500057764E /* SuperHeroModel.swift */; };
+		2D54AF9225EF3B580057764E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54AF9125EF3B580057764E /* NetworkManager.swift */; };
+		2D54AF9525EF3B740057764E /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54AF9425EF3B740057764E /* Endpoints.swift */; };
+		2D54AF9825EF3C5C0057764E /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54AF9725EF3C5C0057764E /* ErrorModel.swift */; };
+		2D54AFB825EF4E120057764E /* ImageSourceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54AFB725EF4E120057764E /* ImageSourceHandler.swift */; };
+		2D54AFF525EFA5860057764E /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54AFF425EFA5860057764E /* LoaderView.swift */; };
+		2D67E26525EE7412006C923E /* HerosCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67E26425EE7412006C923E /* HerosCarousel.swift */; };
+		2D67E26825EE9DAF006C923E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67E26725EE9DAF006C923E /* SearchBar.swift */; };
 		2D78D2A625EDDE6300E287C3 /* Super_HerosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78D2A525EDDE6300E287C3 /* Super_HerosApp.swift */; };
 		2D78D2A825EDDE6300E287C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78D2A725EDDE6300E287C3 /* ContentView.swift */; };
 		2D78D2AA25EDDE6400E287C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D78D2A925EDDE6400E287C3 /* Assets.xcassets */; };
 		2D78D2AD25EDDE6400E287C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D78D2AC25EDDE6400E287C3 /* Preview Assets.xcassets */; };
+		2D78D2B725EDE34D00E287C3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78D2B625EDE34D00E287C3 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D54AF8C25EF3A500057764E /* SuperHeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroModel.swift; sourceTree = "<group>"; };
+		2D54AF9125EF3B580057764E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2D54AF9425EF3B740057764E /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		2D54AF9725EF3C5C0057764E /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		2D54AFB725EF4E120057764E /* ImageSourceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSourceHandler.swift; sourceTree = "<group>"; };
+		2D54AFF425EFA5860057764E /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		2D67E26425EE7412006C923E /* HerosCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosCarousel.swift; sourceTree = "<group>"; };
+		2D67E26725EE9DAF006C923E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		2D78D2A225EDDE6300E287C3 /* Super Heros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Heros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D78D2A525EDDE6300E287C3 /* Super_HerosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_HerosApp.swift; sourceTree = "<group>"; };
 		2D78D2A725EDDE6300E287C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D78D2A925EDDE6400E287C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D78D2AC25EDDE6400E287C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D78D2AE25EDDE6400E287C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D78D2B625EDE34D00E287C3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D54AF8B25EF3A2E0057764E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D54AF8C25EF3A500057764E /* SuperHeroModel.swift */,
+				2D54AF9725EF3C5C0057764E /* ErrorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D54AF9025EF3A9A0057764E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2D54AF9125EF3B580057764E /* NetworkManager.swift */,
+				2D54AF9425EF3B740057764E /* Endpoints.swift */,
+				2D54AFB725EF4E120057764E /* ImageSourceHandler.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2D67E26125EE7312006C923E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D54AFF425EFA5860057764E /* LoaderView.swift */,
+				2D78D2A725EDDE6300E287C3 /* ContentView.swift */,
+				2D78D2B625EDE34D00E287C3 /* DetailView.swift */,
+				2D67E26425EE7412006C923E /* HerosCarousel.swift */,
+				2D67E26725EE9DAF006C923E /* SearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2D78D29925EDDE6300E287C3 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				2D78D2A525EDDE6300E287C3 /* Super_HerosApp.swift */,
-				2D78D2A725EDDE6300E287C3 /* ContentView.swift */,
 				2D78D2A925EDDE6400E287C3 /* Assets.xcassets */,
 				2D78D2AE25EDDE6400E287C3 /* Info.plist */,
+				2D67E26125EE7312006C923E /* View */,
+				2D54AF8B25EF3A2E0057764E /* Model */,
+				2D54AF9025EF3A9A0057764E /* Utilities */,
 				2D78D2AB25EDDE6400E287C3 /* Preview Content */,
 			);
 			path = "Super Heros";
@@ -138,8 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D78D2B725EDE34D00E287C3 /* DetailView.swift in Sources */,
+				2D54AFB825EF4E120057764E /* ImageSourceHandler.swift in Sources */,
+				2D67E26525EE7412006C923E /* HerosCarousel.swift in Sources */,
+				2D67E26825EE9DAF006C923E /* SearchBar.swift in Sources */,
+				2D54AF9225EF3B580057764E /* NetworkManager.swift in Sources */,
 				2D78D2A825EDDE6300E287C3 /* ContentView.swift in Sources */,
 				2D78D2A625EDDE6300E287C3 /* Super_HerosApp.swift in Sources */,
+				2D54AF9825EF3C5C0057764E /* ErrorModel.swift in Sources */,
+				2D54AFF525EFA5860057764E /* LoaderView.swift in Sources */,
+				2D54AF9525EF3B740057764E /* Endpoints.swift in Sources */,
+				2D54AF8D25EF3A500057764E /* SuperHeroModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Super Heros/Preview Content\"";
+				DEVELOPMENT_TEAM = L47KPD4445;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Super Heros/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -279,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Magesh.Super-Heros";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -290,6 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Super Heros/Preview Content\"";
+				DEVELOPMENT_TEAM = L47KPD4445;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Super Heros/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -300,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Magesh.Super-Heros";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
