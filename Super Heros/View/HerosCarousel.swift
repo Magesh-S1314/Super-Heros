@@ -94,7 +94,7 @@ struct HerosCarousel: View {
                     }
                     
                     Spacer()
-                    Text("Super Hero").bold().font(.system(size: 60)).foregroundColor(.white)
+                    Text("Super Heros").bold().font(.system(size: 60)).foregroundColor(.white)
                         .padding(.bottom, 40)
                 }
             }
